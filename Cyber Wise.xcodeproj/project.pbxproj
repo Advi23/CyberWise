@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C1C0C122C6A553F00492DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C0C112C6A553F00492DCB /* LaunchScreen.storyboard */; };
+		3CC649EE2C9F683C00AD1C71 /* CyberRiskQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC649ED2C9F683C00AD1C71 /* CyberRiskQuizView.swift */; };
+		3CC800AF2C69AADE007F57C2 /* Cyber_WiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC800AE2C69AADE007F57C2 /* Cyber_WiseApp.swift */; };
+		3CC800B12C69AADE007F57C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC800B02C69AADE007F57C2 /* ContentView.swift */; };
+		3CC800B32C69AAE0007F57C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC800B22C69AAE0007F57C2 /* Assets.xcassets */; };
+		3CC800B62C69AAE0007F57C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC800B52C69AAE0007F57C2 /* Preview Assets.xcassets */; };
+		3CC800C02C69AAE0007F57C2 /* Cyber_WiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC800BF2C69AAE0007F57C2 /* Cyber_WiseTests.swift */; };
+		3CC800CA2C69AAE0007F57C2 /* Cyber_WiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC800C92C69AAE0007F57C2 /* Cyber_WiseUITests.swift */; };
+		3CC800CC2C69AAE0007F57C2 /* Cyber_WiseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC800CB2C69AAE0007F57C2 /* Cyber_WiseUITestsLaunchTests.swift */; };
+		3CD425D62CBDFCC800B421A3 /* DigitalCitizenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD425D52CBDFCC800B421A3 /* DigitalCitizenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CC800BC2C69AAE0007F57C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CC800A32C69AADE007F57C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CC800AA2C69AADE007F57C2;
+			remoteInfo = "Cyber Wise";
+		};
+		3CC800C62C69AAE0007F57C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CC800A32C69AADE007F57C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CC800AA2C69AADE007F57C2;
+			remoteInfo = "Cyber Wise";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C1C0C112C6A553F00492DCB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CC649ED2C9F683C00AD1C71 /* CyberRiskQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberRiskQuizView.swift; sourceTree = "<group>"; };
+		3CC800AB2C69AADE007F57C2 /* Cyber Wise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cyber Wise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC800AE2C69AADE007F57C2 /* Cyber_WiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cyber_WiseApp.swift; sourceTree = "<group>"; };
+		3CC800B02C69AADE007F57C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CC800B22C69AAE0007F57C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CC800B52C69AAE0007F57C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CC800BB2C69AAE0007F57C2 /* Cyber WiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cyber WiseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC800BF2C69AAE0007F57C2 /* Cyber_WiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cyber_WiseTests.swift; sourceTree = "<group>"; };
+		3CC800C52C69AAE0007F57C2 /* Cyber WiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cyber WiseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC800C92C69AAE0007F57C2 /* Cyber_WiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cyber_WiseUITests.swift; sourceTree = "<group>"; };
+		3CC800CB2C69AAE0007F57C2 /* Cyber_WiseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cyber_WiseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CD425D52CBDFCC800B421A3 /* DigitalCitizenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalCitizenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CC800A82C69AADE007F57C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC800B82C69AAE0007F57C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC800C22C69AAE0007F57C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CC800A22C69AADE007F57C2 = {
+			isa = PBXGroup;
+			children = (
+				3C1C0C112C6A553F00492DCB /* LaunchScreen.storyboard */,
+				3CC800AD2C69AADE007F57C2 /* Cyber Wise */,
+				3CC800BE2C69AAE0007F57C2 /* Cyber WiseTests */,
+				3CC800C82C69AAE0007F57C2 /* Cyber WiseUITests */,
+				3CC800AC2C69AADE007F57C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CC800AC2C69AADE007F57C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CC800AB2C69AADE007F57C2 /* Cyber Wise.app */,
+				3CC800BB2C69AAE0007F57C2 /* Cyber WiseTests.xctest */,
+				3CC800C52C69AAE0007F57C2 /* Cyber WiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CC800AD2C69AADE007F57C2 /* Cyber Wise */ = {
+			isa = PBXGroup;
+			children = (
+				3CD425D52CBDFCC800B421A3 /* DigitalCitizenView.swift */,
+				3CC800AE2C69AADE007F57C2 /* Cyber_WiseApp.swift */,
+				3CC800B02C69AADE007F57C2 /* ContentView.swift */,
+				3CC649ED2C9F683C00AD1C71 /* CyberRiskQuizView.swift */,
+				3CC800B22C69AAE0007F57C2 /* Assets.xcassets */,
+				3CC800B42C69AAE0007F57C2 /* Preview Content */,
+			);
+			path = "Cyber Wise";
+			sourceTree = "<group>";
+		};
+		3CC800B42C69AAE0007F57C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CC800B52C69AAE0007F57C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CC800BE2C69AAE0007F57C2 /* Cyber WiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CC800BF2C69AAE0007F57C2 /* Cyber_WiseTests.swift */,
+			);
+			path = "Cyber WiseTests";
+			sourceTree = "<group>";
+		};
+		3CC800C82C69AAE0007F57C2 /* Cyber WiseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CC800C92C69AAE0007F57C2 /* Cyber_WiseUITests.swift */,
+				3CC800CB2C69AAE0007F57C2 /* Cyber_WiseUITestsLaunchTests.swift */,
+			);
+			path = "Cyber WiseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CC800AA2C69AADE007F57C2 /* Cyber Wise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC800CF2C69AAE0007F57C2 /* Build configuration list for PBXNativeTarget "Cyber Wise" */;
+			buildPhases = (
+				3CC800A72C69AADE007F57C2 /* Sources */,
+				3CC800A82C69AADE007F57C2 /* Frameworks */,
+				3CC800A92C69AADE007F57C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cyber Wise";
+			productName = "Cyber Wise";
+			productReference = 3CC800AB2C69AADE007F57C2 /* Cyber Wise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CC800BA2C69AAE0007F57C2 /* Cyber WiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC800D22C69AAE0007F57C2 /* Build configuration list for PBXNativeTarget "Cyber WiseTests" */;
+			buildPhases = (
+				3CC800B72C69AAE0007F57C2 /* Sources */,
+				3CC800B82C69AAE0007F57C2 /* Frameworks */,
+				3CC800B92C69AAE0007F57C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CC800BD2C69AAE0007F57C2 /* PBXTargetDependency */,
+			);
+			name = "Cyber WiseTests";
+			productName = "Cyber WiseTests";
+			productReference = 3CC800BB2C69AAE0007F57C2 /* Cyber WiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CC800C42C69AAE0007F57C2 /* Cyber WiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC800D52C69AAE0007F57C2 /* Build configuration list for PBXNativeTarget "Cyber WiseUITests" */;
+			buildPhases = (
+				3CC800C12C69AAE0007F57C2 /* Sources */,
+				3CC800C22C69AAE0007F57C2 /* Frameworks */,
+				3CC800C32C69AAE0007F57C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CC800C72C69AAE0007F57C2 /* PBXTargetDependency */,
+			);
+			name = "Cyber WiseUITests";
+			productName = "Cyber WiseUITests";
+			productReference = 3CC800C52C69AAE0007F57C2 /* Cyber WiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CC800A32C69AADE007F57C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3CC800AA2C69AADE007F57C2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3CC800BA2C69AAE0007F57C2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3CC800AA2C69AADE007F57C2;
+					};
+					3CC800C42C69AAE0007F57C2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3CC800AA2C69AADE007F57C2;
+					};
+				};
+			};
+			buildConfigurationList = 3CC800A62C69AADE007F57C2 /* Build configuration list for PBXProject "Cyber Wise" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CC800A22C69AADE007F57C2;
+			productRefGroup = 3CC800AC2C69AADE007F57C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CC800AA2C69AADE007F57C2 /* Cyber Wise */,
+				3CC800BA2C69AAE0007F57C2 /* Cyber WiseTests */,
+				3CC800C42C69AAE0007F57C2 /* Cyber WiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CC800A92C69AADE007F57C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1C0C122C6A553F00492DCB /* LaunchScreen.storyboard in Resources */,
+				3CC800B62C69AAE0007F57C2 /* Preview Assets.xcassets in Resources */,
+				3CC800B32C69AAE0007F57C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC800B92C69AAE0007F57C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC800C32C69AAE0007F57C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CC800A72C69AADE007F57C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC800B12C69AADE007F57C2 /* ContentView.swift in Sources */,
+				3CC800AF2C69AADE007F57C2 /* Cyber_WiseApp.swift in Sources */,
+				3CD425D62CBDFCC800B421A3 /* DigitalCitizenView.swift in Sources */,
+				3CC649EE2C9F683C00AD1C71 /* CyberRiskQuizView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC800B72C69AAE0007F57C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC800C02C69AAE0007F57C2 /* Cyber_WiseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC800C12C69AAE0007F57C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC800CC2C69AAE0007F57C2 /* Cyber_WiseUITestsLaunchTests.swift in Sources */,
+				3CC800CA2C69AAE0007F57C2 /* Cyber_WiseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CC800BD2C69AAE0007F57C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CC800AA2C69AADE007F57C2 /* Cyber Wise */;
+			targetProxy = 3CC800BC2C69AAE0007F57C2 /* PBXContainerItemProxy */;
+		};
+		3CC800C72C69AAE0007F57C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CC800AA2C69AADE007F57C2 /* Cyber Wise */;
+			targetProxy = 3CC800C62C69AAE0007F57C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CC800CD2C69AAE0007F57C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CC800CE2C69AAE0007F57C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CC800D02C69AAE0007F57C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cyber Wise/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cyber Wise";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.advika.Cyber-Wise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CC800D12C69AAE0007F57C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cyber Wise/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cyber Wise";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.advika.Cyber-Wise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CC800D32C69AAE0007F57C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.advika.Cyber-WiseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cyber Wise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cyber Wise";
+			};
+			name = Debug;
+		};
+		3CC800D42C69AAE0007F57C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.advika.Cyber-WiseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cyber Wise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cyber Wise";
+			};
+			name = Release;
+		};
+		3CC800D62C69AAE0007F57C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.advika.Cyber-WiseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cyber Wise";
+			};
+			name = Debug;
+		};
+		3CC800D72C69AAE0007F57C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.advika.Cyber-WiseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cyber Wise";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CC800A62C69AADE007F57C2 /* Build configuration list for PBXProject "Cyber Wise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC800CD2C69AAE0007F57C2 /* Debug */,
+				3CC800CE2C69AAE0007F57C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC800CF2C69AAE0007F57C2 /* Build configuration list for PBXNativeTarget "Cyber Wise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC800D02C69AAE0007F57C2 /* Debug */,
+				3CC800D12C69AAE0007F57C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC800D22C69AAE0007F57C2 /* Build configuration list for PBXNativeTarget "Cyber WiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC800D32C69AAE0007F57C2 /* Debug */,
+				3CC800D42C69AAE0007F57C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC800D52C69AAE0007F57C2 /* Build configuration list for PBXNativeTarget "Cyber WiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC800D62C69AAE0007F57C2 /* Debug */,
+				3CC800D72C69AAE0007F57C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CC800A32C69AADE007F57C2 /* Project object */;
+}
