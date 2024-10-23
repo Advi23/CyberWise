@@ -47,7 +47,7 @@ struct ContentView: View {
                             .cornerRadius(12)
                     }
                     
-                    NavigationLink(destination: PhishingAttacksView()) {
+                    NavigationLink(destination: PhishingAttackView()) {
                         Text("Phishing Attacks")
                             .font(.custom("Galvji", size: 20))
                             .foregroundColor(.black)  // Change text color to black
@@ -111,13 +111,13 @@ struct CryptographyGameView: View {
     }
 }*/
 
-struct PhishingAttacksView: View {
+/*struct PhishingAttacksView: View {
     var body: some View {
         Text("Phishing Attacks")
             .font(.largeTitle)
             .navigationBarTitle("Phishing Attacks", displayMode: .inline)
     }
-}
+}*/
 
 /*struct DigitalCitizenView: View {
     var body: some View {

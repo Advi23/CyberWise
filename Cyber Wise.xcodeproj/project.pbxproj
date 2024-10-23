@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C1C0C122C6A553F00492DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C0C112C6A553F00492DCB /* LaunchScreen.storyboard */; };
+		3C616A692CC3563E009B0A09 /* PhishingAttackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C616A682CC3563E009B0A09 /* PhishingAttackView.swift */; };
 		3CC649EE2C9F683C00AD1C71 /* CyberRiskQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC649ED2C9F683C00AD1C71 /* CyberRiskQuizView.swift */; };
 		3CC800AF2C69AADE007F57C2 /* Cyber_WiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC800AE2C69AADE007F57C2 /* Cyber_WiseApp.swift */; };
 		3CC800B12C69AADE007F57C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC800B02C69AADE007F57C2 /* ContentView.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		3C1C0C112C6A553F00492DCB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C616A682CC3563E009B0A09 /* PhishingAttackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhishingAttackView.swift; sourceTree = "<group>"; };
 		3CC649ED2C9F683C00AD1C71 /* CyberRiskQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberRiskQuizView.swift; sourceTree = "<group>"; };
 		3CC800AB2C69AADE007F57C2 /* Cyber Wise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cyber Wise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC800AE2C69AADE007F57C2 /* Cyber_WiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cyber_WiseApp.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				3CC800AE2C69AADE007F57C2 /* Cyber_WiseApp.swift */,
 				3CC800B02C69AADE007F57C2 /* ContentView.swift */,
 				3CC649ED2C9F683C00AD1C71 /* CyberRiskQuizView.swift */,
+				3C616A682CC3563E009B0A09 /* PhishingAttackView.swift */,
 				3CC800B22C69AAE0007F57C2 /* Assets.xcassets */,
 				3CC800B42C69AAE0007F57C2 /* Preview Content */,
 			);
@@ -271,6 +274,7 @@
 				3CC800AF2C69AADE007F57C2 /* Cyber_WiseApp.swift in Sources */,
 				3CD425D62CBDFCC800B421A3 /* DigitalCitizenView.swift in Sources */,
 				3CC649EE2C9F683C00AD1C71 /* CyberRiskQuizView.swift in Sources */,
+				3C616A692CC3563E009B0A09 /* PhishingAttackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
