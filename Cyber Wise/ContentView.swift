@@ -67,7 +67,7 @@ struct ContentView: View {
                             .cornerRadius(12)
                     }
                     
-                    NavigationLink(destination: HackADayView()) {
+                    /*NavigationLink(destination: HackADayView()) {
                         Text("Hack a Day")
                             .font(.custom("Galvji", size: 20))
                             .foregroundColor(.black)  // Change text color to black
@@ -75,7 +75,7 @@ struct ContentView: View {
                             .frame(maxWidth: .infinity, minHeight: 60)
                             .background(Color.red)
                             .cornerRadius(12)
-                    }
+                    }*/
                 }
                 .padding(.horizontal)
                 
