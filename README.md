@@ -22,24 +22,18 @@
    - **Description**: Provides helpful tips on internet etiquette, preventing cyberbullying, and staying safe online.
    - **Randomized Tips**: Each time you access this feature, you’ll see a new digital citizenship tip. The background color of the tips box changes between light red, blue, and yellow for visual variety.
 
-### 4. **Cryptography Game**
-   - **Description**: An interactive game designed to introduce users to basic cryptographic principles. Solve puzzles and decrypt messages using simple ciphers, helping users understand how encryption protects online data.
-
-### 5. **Hack-a-Day**
-   - **Description**: Learn about famous hacks and vulnerabilities that have occurred in the tech world. This feature educates users about the history of cybersecurity and how these incidents changed security practices.
-
-### 6. **Digital Safety Recommendations**
+### 4. **Digital Safety Recommendations**
    - **Description**: Each sector of the Cyber Risk Quiz provides tailored recommendations for improving your security practices. These tips help users strengthen their weakest areas.
 
-### 7. **User-Friendly Design**
+### 5. **User-Friendly Design**
    - **Accessible Layout**: The app's user interface is designed to be simple and intuitive, making it easy for all users to navigate.
    - **Customizable Themes**: Options for customizing the appearance of the app with different colors and fonts to suit user preferences.
 
 ## Development Status
 CyberWise is currently in development. The following features have been implemented:
 - Cyber Risk Quiz (complete)
-- Digital citizenship tips (in progress)
-- Phishing Attack scenarios (in progress)
+- Digital citizenship tips (complete)
+- Phishing Attack scenarios (complete)
 
 Future features, including the Cryptography Game and Hack-a-Day, are planned for upcoming releases.
 
