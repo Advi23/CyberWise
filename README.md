@@ -35,7 +35,7 @@ CyberWise is currently in development. The following features have been implemen
 - Digital citizenship tips (complete)
 - Phishing Attack scenarios (complete)
 
-Future features, including the Cryptography Game and Hack-a-Day, are planned for upcoming releases.
+Future features, including a login page and Hack-a-Day, are planned for upcoming releases.
 
 ## Contribution
 If you'd like to contribute to the development of **CyberWise**, feel free to submit a pull request or open an issue on GitHub.
